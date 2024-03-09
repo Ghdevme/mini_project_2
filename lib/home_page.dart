@@ -1,8 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:mini_project_2/home_view.dart';
+import 'package:mini_project_2/signup_view.dart';
 import 'package:mini_project_2/message_view.dart';
 import 'package:mini_project_2/profile_view.dart';
 import 'package:mini_project_2/setting_view.dart';
+import 'package:mini_project_2/login_view.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
@@ -41,8 +43,8 @@ class _HomePageState extends State<HomePage> {
               label: "Home"
           ),
           BottomNavigationBarItem(
-              icon: Icon(Icons.message_outlined),
-              label: "Message"
+              icon: Icon(Icons.maps_ugc_rounded),
+              label: "Message",
           ),
           BottomNavigationBarItem(
               icon: Icon(Icons.account_circle_rounded),
